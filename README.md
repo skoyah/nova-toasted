@@ -1,6 +1,6 @@
 # Nova toasted
 
-A package to customiza your Laravel Nova toasted notifications.
+A package to customize your Laravel Nova toasted notifications.
 
 ## Instalation
 
@@ -51,7 +51,7 @@ this.$toasted.forbidden("Access denied.", { duration: 5000 });
 
 ## Styling
 
-To style your custom theme and toasted components
+To style your custom theme and toasted components and to override the default ones, in you css file:
 
 ```css
 // styling your custom theme
