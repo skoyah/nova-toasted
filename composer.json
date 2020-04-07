@@ -1,29 +1,31 @@
 {
-    "name": "skoyah/nova-toasted",
-    "description": "A Laravel Nova asset.",
-    "keywords": [
-        "laravel",
-        "nova"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": ">=7.1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Skoyah\\NovaAssets\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Skoyah\\NovaAssets\\ToastedAssetServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "skoyah/nova-toasted",
+  "description": "Customize and create your Laravel Nova notifications.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "toasted",
+    "notifications"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skoyah\\NovaAssets\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skoyah\\NovaAssets\\ToastedAssetServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

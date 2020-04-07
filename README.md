@@ -1,4 +1,4 @@
-# Nova toasted
+# Nova toasted![Package Logo](images/package_logo.svg)
 
 A package to customize your Laravel Nova toasted notifications.
 
