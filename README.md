@@ -44,7 +44,7 @@ Nova.bus.$toasted.forbidden(); //globally available
 Additionaly, you can still use custom messages and options for a particullar situation:
 
 ```javascript
-this.$toasted.forbidden("Access denied.", { duration: 5000 });
+this.$toasted.forbidden('Access denied.', { duration: 5000 });
 ```
 
 ---
@@ -54,34 +54,49 @@ this.$toasted.forbidden("Access denied.", { duration: 5000 });
 To style your custom theme and toasted components and to override the default ones, in you css file:
 
 ```css
-// styling your custom theme
+/* styling your custom theme */
 .my-custom-theme {
-    //...
+  //...
 }
 
-// override default components
+/* use this classes override default components */
 .toasted.default {
-    //...
+  //...
 }
 
 .toasted.success {
-    //...
+  //...
 }
 
 .toasted.error {
-    //...
+  //...
 }
 
 .toasted.info {
-    //...
+  //...
 }
 
 .toasted.warning {
-    //...
+  //...
 }
 
-// custom components
+/* custom components */
 .toasted.forbidden {
-    //...
+  //...
 }
 ```
+
+### Example
+
+```css
+.my-theme {
+  padding: 20px !important;
+  color: white;
+}
+
+.toasted.forbidden {
+  background-color: blueviolet;
+}
+```
+
+![Example](images/example.png)
