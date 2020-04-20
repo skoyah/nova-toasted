@@ -1,7 +1,7 @@
 # Nova toasted![Package Logo](images/package_logo.svg)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/skoyah/nova-toasted.svg?style=flat-square)](https://packagist.org/packages/skoyah/nova-toasted)
-![License](https://img.shields.io/github/license/skoyah/nova-toasted?style=flat-square)
+[![Latest Stable Version](https://poser.pugx.org/skoyah/nova-toasted/v/stable)](https://packagist.org/packages/skoyah/nova-toasted)
+[![License](https://poser.pugx.org/skoyah/nova-toasted/license)](https://packagist.org/packages/skoyah/nova-toasted)
 
 A package to customize your Laravel Nova toasted notifications.
 
